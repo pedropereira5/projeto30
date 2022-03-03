@@ -52,7 +52,7 @@ function setup() {
   jointLink = new Link(bridge, jointPoint);
   
   
-  breakButton.mousePressed(handleButtonPress);
+  //breakButton.mousePressed(handleButtonPress);
   
   for (var i = 0; i <= 8; i++) {
     var x = random(width / 2 - 200, width / 2 + 300);
